@@ -9,10 +9,17 @@
 <body>
 	<h1>Login Form</h1>
     <form id="login-form">
-        <input type="text" placeholder="Username" id="username" required><br>
-        <input type="password" placeholder="Password" id="password" required><br>
-        <input type="checkbox" id="checkbox"> <label for="checkbox">Remember me</label><br>
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Username">
+		<br>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Password">
+		<br>
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">Remember me</label>
+		<br>
         <input type="submit" id="submit" value="Submit">
+		<br>
     </form>
     <button id="existing" style="display: none;">Login as existing user</button>
     <script type="text/javascript" src="./script.js">
